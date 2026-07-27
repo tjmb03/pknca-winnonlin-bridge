@@ -1,0 +1,33 @@
+"engine","reference","PPTESTCD","label","n_subjects","n_compared","n_missing","max_abs_pct","n_pass","n_fail"
+"PKNCA","WinNonlin","AUCIFO","AUCinf(obs)",12,12,0,3.34065097540479e-08,12,0
+"PKNCA","WinNonlin","AUCLST","AUClast",12,12,0,3.99350048148699e-08,12,0
+"PKNCA","WinNonlin","AUCPEO","AUC %extrap(obs)",12,12,0,3.77463585242283e-08,12,0
+"PKNCA","WinNonlin","AUMCIFO","AUMCinf(obs)",12,12,0,2.49200344575329e-08,12,0
+"PKNCA","WinNonlin","AUMCLST","AUMClast",12,12,0,4.07248784497915e-08,12,0
+"PKNCA","WinNonlin","CLFO","CL/F(obs)",12,12,0,2.79700263261787e-08,12,0
+"PKNCA","WinNonlin","CLST","Clast",12,12,0,0,12,0
+"PKNCA","WinNonlin","CMAX","Cmax",12,12,0,0,12,0
+"PKNCA","WinNonlin","LAMZ","Lambda_z",12,12,0,4.72747530710173e-07,12,0
+"PKNCA","WinNonlin","LAMZHL","t1/2",12,12,0,7.669066713614e-09,12,0
+"PKNCA","WinNonlin","LAMZNPT","N points lambda_z",12,12,0,0,12,0
+"PKNCA","WinNonlin","MRTEVIFO","MRTinf(obs)",12,12,0,3.7484311843529e-08,12,0
+"PKNCA","WinNonlin","R2ADJ","R2 adjusted",12,12,0,4.80089058390046e-08,12,0
+"PKNCA","WinNonlin","TLST","Tlast",12,12,0,0,12,0
+"PKNCA","WinNonlin","TMAX","Tmax",12,12,0,0,12,0
+"PKNCA","WinNonlin","VZFO","Vz/F(obs)",12,12,0,1.93634406334122e-08,12,0
+"NonCompart","WinNonlin","AUCIFO","AUCinf(obs)",12,12,0,3.3406559522309e-08,12,0
+"NonCompart","WinNonlin","AUCLST","AUClast",12,12,0,3.99350288645102e-08,12,0
+"NonCompart","WinNonlin","AUCPEO","AUC %extrap(obs)",12,12,0,3.77464811412082e-08,12,0
+"NonCompart","WinNonlin","AUMCIFO","AUMCinf(obs)",12,12,0,2.49203091933987e-08,12,0
+"NonCompart","WinNonlin","AUMCLST","AUMClast",12,12,0,4.07247252448253e-08,12,0
+"NonCompart","WinNonlin","CLFO","CL/F(obs)",12,12,0,2.79699368462421e-08,12,0
+"NonCompart","WinNonlin","CLST","Clast",12,12,0,0,12,0
+"NonCompart","WinNonlin","CMAX","Cmax",12,12,0,0,12,0
+"NonCompart","WinNonlin","LAMZ","Lambda_z",12,12,0,4.72747460822953e-07,12,0
+"NonCompart","WinNonlin","LAMZHL","t1/2",12,12,0,7.66886802122566e-09,12,0
+"NonCompart","WinNonlin","LAMZNPT","N points lambda_z",12,12,0,0,12,0
+"NonCompart","WinNonlin","MRTEVIFO","MRTinf(obs)",12,12,0,3.7484311843529e-08,12,0
+"NonCompart","WinNonlin","R2ADJ","R2 adjusted",12,12,0,4.80089058390046e-08,12,0
+"NonCompart","WinNonlin","TLST","Tlast",12,12,0,0,12,0
+"NonCompart","WinNonlin","TMAX","Tmax",12,12,0,0,12,0
+"NonCompart","WinNonlin","VZFO","Vz/F(obs)",12,12,0,1.93635384210882e-08,12,0

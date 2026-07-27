@@ -1,0 +1,20 @@
+NCA engine comparison - provenance record
+Generated: 2026-07-27 18:10:11 UTC
+R: R version 4.3.3 (2024-02-29)
+Platform: x86_64-pc-linux-gnu
+
+Package versions:
+  PKNCA: 0.12.1
+  NonCompart: 0.8.2
+  dplyr: 1.1.4
+  tidyr: 1.3.1
+  ggplot2: 3.4.4
+
+NCA rules in force:
+  auc_method: lin up/log down
+  noncompart_down: Log
+  min_hl_points: 3
+  allow_tmax_in_hl: FALSE
+  r2adj_threshold: 0.7
+  tolerance: 0.001
+  theoph_dose_mg: 320

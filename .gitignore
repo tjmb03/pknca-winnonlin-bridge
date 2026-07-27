@@ -1,0 +1,23 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# figures/ and reproducibility/ ARE committed: the README embeds the figures,
+# and the platform records are the evidence for the reproducibility section.
+# Everything below is regenerable and therefore ignored.
+
+# Generated artifacts -- regenerate with run_all.R
+outputs/*
+!outputs/.gitkeep
+data/derived/*
+!data/derived/.gitkeep
+phoenix/input/*
+!phoenix/input/.gitkeep
+
+# Cached upstream reference (fetched at runtime)
+phoenix/reference/winnonlin_theoph_*.csv
+phoenix/reference/winnonlin_indometh_*.csv
+
+.DS_Store

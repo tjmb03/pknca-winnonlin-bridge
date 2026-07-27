@@ -1,0 +1,23 @@
+Package: pkncaWinNonlinBridge
+Title: Cross-Validation of NCA Engines: PKNCA, NonCompart and Phoenix WinNonlin
+Version: 0.1.0
+Authors@R: person("Bo", "Ma", role = c("aut", "cre"))
+Description: Reproducible comparison of three non-compartmental analysis
+    engines on public pharmacokinetic data, with a documented export/import
+    bridge to Phoenix WinNonlin. Demonstrates that NCA engines converge when
+    calculation conventions are explicitly matched, and provides a CDISC
+    SDTM-to-PP-domain pipeline.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports:
+    PKNCA (>= 0.11.0),
+    NonCompart (>= 0.6.0),
+    ggplot2,
+    stats,
+    utils
+Suggests:
+    pharmaversesdtm,
+    dplyr,
+    testthat (>= 3.0.0),
+    knitr
