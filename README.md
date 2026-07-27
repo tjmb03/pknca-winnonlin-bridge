@@ -50,7 +50,7 @@ disagree, NonCompart tells you whether the cause is a convention difference
 ## Quick start
 
 ```bash
-git clone https://github.com/<you>/pknca-winnonlin-bridge
+git clone https://github.com/tjmb03/pknca-winnonlin-bridge
 cd pknca-winnonlin-bridge
 
 Rscript -e 'install.packages(c("PKNCA","NonCompart","ggplot2","testthat"))'
