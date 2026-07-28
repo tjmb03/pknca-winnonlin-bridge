@@ -398,32 +398,6 @@ software like this, and it is invisible from the summary line.
 
 ---
 
-## Publishing this repository
-
-The repository is initialised with one commit. Set your identity, re-author it,
-and push:
-
-```bash
-git config user.name  "Your Name"
-git config user.email "you@example.com"
-git commit --amend --reset-author --no-edit
-
-./push_to_github.sh <your-github-username>
-```
-
-`push_to_github.sh` refuses to run if the git identity is still the placeholder,
-the working tree is dirty, a credential pattern appears in tracked files, any
-file exceeds 50 MB, or the test suite fails. It will not force-push over an
-existing remote branch.
-
-Create the empty GitHub repository first (no README, licence or .gitignore —
-those exist here already), or use `gh repo create`.
-
-Running `run_all.R` does not dirty the tree: `outputs/` is gitignored and the
-committed figures are only rebuilt when missing or when passed `--figures`.
-
----
-
 ## Repository layout
 
 ```
